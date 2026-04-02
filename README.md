@@ -1,1 +1,1 @@
-# medidor-de-distancias.ino
+Este proyecto utiliza un sensor ultrasónico HC-SR04 con Arduino para medir distancias mediante ondas de sonido. El programa envía un pulso desde el pin TRIG, mide el tiempo que tarda en volver el eco por el pin ECHO y calcula la distancia usando la velocidad del sonido. Para mejorar la precisión, realiza múltiples mediciones seguidas y calcula la media de los resultados. Finalmente, muestra la distancia promedio en el monitor serie.
